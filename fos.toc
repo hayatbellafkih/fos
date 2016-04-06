@@ -1,0 +1,24 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Design Patterns vs AntiPatterns}{3}{0}{1}
+\beamer@sectionintoc {2}{About Software Project Management AntiPatterns}{4}{0}{2}
+\beamer@sectionintoc {3}{Fear of succes}{5}{0}{3}
+\beamer@subsectionintoc {3}{1}{Description}{5}{0}{3}
+\beamer@subsectionintoc {3}{2}{Symptomes}{6}{0}{3}
+\beamer@subsectionintoc {3}{3}{Consequence}{7}{0}{3}
+\beamer@subsectionintoc {3}{4}{Examples}{8}{0}{3}
+\beamer@subsectionintoc {3}{5}{Solution}{9}{0}{3}
+\beamer@subsectionintoc {3}{6}{Benefits}{10}{0}{3}
+\beamer@sectionintoc {4}{Intellectual Violence}{11}{0}{4}
+\beamer@subsectionintoc {4}{1}{Consequence}{12}{0}{4}
+\beamer@subsectionintoc {4}{2}{Example}{13}{0}{4}
+\beamer@subsectionintoc {4}{3}{Solution}{14}{0}{4}
+\beamer@subsectionintoc {4}{4}{Benefits}{15}{0}{4}
+\beamer@sectionintoc {5}{Corncob}{16}{0}{5}
+\beamer@subsectionintoc {5}{1}{Who is the corncob ?}{16}{0}{5}
+\beamer@subsectionintoc {5}{2}{Symptomes}{17}{0}{5}
+\beamer@subsectionintoc {5}{3}{Consequence}{18}{0}{5}
+\beamer@subsectionintoc {5}{4}{Examples}{19}{0}{5}
+\beamer@subsectionintoc {5}{5}{Solution}{20}{0}{5}
+\beamer@subsectionintoc {5}{6}{Benefits}{21}{0}{5}
+\beamer@sectionintoc {6}{References}{22}{0}{6}

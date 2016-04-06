@@ -1,0 +1,293 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+\setbeamertemplate{itemize item}[square]
+%theme
+\useinnertheme[shadow=true]{rounded}
+\useoutertheme{infolines}
+\usecolortheme{beaver}
+
+\setbeamerfont{block title}{size={}}
+\setbeamercolor{titlelike}{parent=structure,bg=white}
+%theme
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+\usepackage[english]{babel}
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Fear	of	Success]{Mini	Management	Antipattern} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Hayat BELLAFKIH} % Your name
+\institute[UMONS] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+University of Mons\\ % Your institution for the title page
+\medskip
+\textit{hayat.BELLAFKIH@student.umons.ac.be} % Your email address
+}
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+\begin{frame}
+\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\section{Design Patterns vs AntiPatterns} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
+\begin{frame}
+\frametitle{Definition}
+\begin{itemize}
+\color{black}
+\item \textbf{Design Patterns}\\
+Common approaches to common problems which have been formalized, and are generally considered a good development practice. They are used for :\\
+\begin{minipage}[t]{11cm}
+\begin{itemize}
+\item Speed up the development process.
+\item Improves code readability.
+\item Allow developers to communicate using well-known, well understood names for software interactions.
+\end{itemize}
+\end{minipage}
+\newline
+\item \textbf{AntiPattern}\\ 
+Certain patterns in software development that is considered a bad programming practice.
+\end{itemize}
+\end{frame}
+\section{About Software Project Management AntiPatterns}
+\begin{frame}
+\frametitle{About Software Project Management AntiPatterns}
+%https://tampub.uta.fi/bitstream/handle/10024/97770/GRADU-1436947648.pdf?sequence=1
+Software project management anti-patterns describe bad practices and their negative consequences in the field of software project management. The objectives of management AntiPatterns are:\\
+\begin{itemize}
+\item Build new awareness that enable to the success of project.
+% l'objectif du managment antipaterns est de produire la consciences des differents problèmes afin d'améliorer le processus et puis produire le success. 
+\item Identify a key scenarios to resolve the  human communication issues that are destructive to software processes.
+% parmis les conséquences des  antipatterns, l'echec des projets soit au niveau de developemnt du projet ou bien au niveau du management du projet informatiques.
+%Anti-patterns are one of the causes of software project failures which have been a significant
+%issue in software engineering and software project management. These failures can be
+%decreased at a certain level with the knowledge of anti-patterns. Therefore, it becomes
+%essential that available anti-patterns in the literature should be studied by project managers,
+%and negative experiences should be faced. Also, knowledge on managing software projects
+%should be shared in an organized way, and new anti-patterns should be investigated.
+\end{itemize}
+\end{frame}
+\section{Fear of succes}
+\subsection{Description}
+\begin{frame}
+\frametitle{Description}
+Is a phenomenon that occurs when the project is on the brink of success. It is a feeling of insecurity by the team project, the are worry about the kinds of things that can go wrong.
+\end{frame}
+
+\subsection{Symptomes}
+\begin{frame}
+\frametitle{}
+\end{frame}
+
+\subsection{Consequence}
+\begin{frame}
+\frametitle{}
+\end{frame}
+
+\subsection{Examples}
+\begin{frame}
+\frametitle{}
+\end{frame}
+
+\subsection{Solution}
+\begin{frame}
+\frametitle{}
+\end{frame}
+
+\subsection{Benefits}
+\begin{frame}
+\frametitle{}
+\end{frame}
+
+\section{Intellectual Violence}
+\begin{frame}
+\frametitle{Description}
+The intellectual violence AntiPattern occurs when someone who understands a theory, technology, or a buzzword uses this knoledge to intimidate others in a meeting situation.\\
+It may happen inadvertently due to the normal reticence of technical people to expose their ignorance.
+\end{frame}
+
+\subsection{Consequence}
+\begin{frame}
+\frametitle{Consequences}
+Intellectual Violence can :\\
+\begin{itemize}
+\item  Breakdown of communication.
+\item  Persons who do not understand a new concept, progress, may be stalled indefinitely as they work through their feelings of inferiority or avoid the topic altogether.
+\item Arises a defensive culture  which inhibits productivity.
+\item People control and conceal information instead of sharing it.
+\end{itemize}
+\end{frame}
+
+\subsection{Example}
+\begin{frame}
+\frametitle{Example of the Lambda Calculus}
+The Lambda Calculus is a theory about the mathematics of functions and variable substitutions. This theory is taught at selected universities in undergraduate computer sciences courses. The intellectual violence AntiPattern  appears when people with this training often assume that everybody knows about Lambda Calculus.
+\end{frame}
+
+\subsection{Solution}
+\begin{frame}
+\frametitle{Solution}
+To resolve the intelectual violence problem, it is recognized to :
+\begin{itemize}
+\item unify the talents and the knowledge regardless the position of the pperson in the organizational hierarchy.
+\item  Encourage people to share their knowledge.
+\item encourage people to share information
+\end{itemize}
+\end{frame}
+
+\subsection{Benefits}
+\begin{frame}
+\frametitle{Benefits}
+\begin{itemize}
+\item good utilization of resources.
+\item promote the overall success of the organization.
+\end{itemize}
+\end{frame}
+
+\section{Corncob}
+\subsection{Who is the corncob ?}
+\begin{frame}
+\frametitle{Definition}
+Concorbs are difficult persons who can be prevalent in the software developement business. He may be a member of team or a member of external senior staff.
+
+
+\end{frame}
+
+\subsection{Symptomes}
+\begin{frame}
+\frametitle{Symptomes}
+\begin{itemize}
+\item He is disagree with the objectives of the developement team or project, and he try to change them.
+\item He raises objections ander the guise of concern.
+\item He has a destructor behavior
+\item He create by his political forces an evirenement where it's dificult to focus on technical discussions.
+\item In general, the corncob is a manager who is not under the direct authority of senior software software developement manager or project manager.
+\item 
+\end{itemize}
+\end{frame}
+
+\subsection{Consequence}
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item 
+\item 
+\end{itemize}
+
+\end{frame}
+
+\subsection{Examples}
+\begin{frame}
+\frametitle{}
+\end{frame}
+
+\subsection{Solution}
+\begin{frame}
+\frametitle{}
+\end{frame}
+
+\subsection{Benefits}
+\begin{frame}
+\frametitle{}
+\end{frame}
+\section{References}
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item Design Patterns Explained Simply
+\end{itemize}
+
+\end{frame}
+%----------------------------------------------------------------------------------------
+
+\end{document} 
