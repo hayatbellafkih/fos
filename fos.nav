@@ -13,7 +13,7 @@
 \headcommand {\beamer@subsectionpages {3}{3}}
 \headcommand {\slideentry {2}{0}{4}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\sectionentry {3}{Fear of succes}{5}{Fear of succes}{0}}
+\headcommand {\sectionentry {3}{Fear of success}{5}{Fear of success}{0}}
 \headcommand {\beamer@sectionpages {4}{4}}
 \headcommand {\beamer@subsectionpages {4}{4}}
 \headcommand {\beamer@subsectionentry {0}{3}{1}{5}{Description}}\headcommand {\beamer@subsectionpages {5}{4}}
@@ -28,8 +28,8 @@
 \headcommand {\beamer@subsectionentry {0}{3}{4}{8}{Examples}}\headcommand {\beamer@subsectionpages {7}{7}}
 \headcommand {\slideentry {3}{4}{1}{8/8}{Examples}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@subsectionentry {0}{3}{5}{9}{Solution}}\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\slideentry {3}{5}{1}{9/9}{Solution}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{9}{Solutions}}\headcommand {\beamer@subsectionpages {8}{8}}
+\headcommand {\slideentry {3}{5}{1}{9/9}{Solutions}{0}}
 \headcommand {\beamer@framepages {9}{9}}
 \headcommand {\beamer@subsectionentry {0}{3}{6}{10}{Benefits}}\headcommand {\beamer@subsectionpages {9}{9}}
 \headcommand {\slideentry {3}{6}{1}{10/10}{Benefits}{0}}
@@ -57,28 +57,22 @@
 \headcommand {\beamer@subsectionentry {0}{5}{1}{16}{Who is the corncob ?}}\headcommand {\beamer@subsectionpages {16}{15}}
 \headcommand {\slideentry {5}{1}{1}{16/16}{Who is the corncob ?}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{17}{Symptomes}}\headcommand {\beamer@subsectionpages {16}{16}}
-\headcommand {\slideentry {5}{2}{1}{17/17}{Symptomes}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{17}{Symptoms}}\headcommand {\beamer@subsectionpages {16}{16}}
+\headcommand {\slideentry {5}{2}{1}{17/17}{Symptoms}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{18}{Consequence}}\headcommand {\beamer@subsectionpages {17}{17}}
-\headcommand {\slideentry {5}{3}{1}{18/18}{Consequence}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{18}{When the corncob is acceptable}}\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\slideentry {5}{3}{1}{18/18}{When the corncob is acceptable}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@subsectionentry {0}{5}{4}{19}{Examples}}\headcommand {\beamer@subsectionpages {18}{18}}
-\headcommand {\slideentry {5}{4}{1}{19/19}{Examples}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{4}{19}{Refactored Solution}}\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\slideentry {5}{4}{1}{19/19}{Refactored Solution}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionentry {0}{5}{5}{20}{Solution}}\headcommand {\beamer@subsectionpages {19}{19}}
-\headcommand {\slideentry {5}{5}{1}{20/20}{Solution}{0}}
+\headcommand {\sectionentry {6}{References}{20}{References}{0}}
+\headcommand {\beamer@sectionpages {16}{19}}
+\headcommand {\beamer@subsectionpages {19}{19}}
+\headcommand {\slideentry {6}{0}{2}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@subsectionentry {0}{5}{6}{21}{Benefits}}\headcommand {\beamer@subsectionpages {20}{20}}
-\headcommand {\slideentry {5}{6}{1}{21/21}{Benefits}{0}}
-\headcommand {\beamer@framepages {21}{21}}
-\headcommand {\sectionentry {6}{References}{22}{References}{0}}
-\headcommand {\beamer@sectionpages {16}{21}}
-\headcommand {\beamer@subsectionpages {21}{21}}
-\headcommand {\slideentry {6}{0}{2}{22/22}{}{0}}
-\headcommand {\beamer@framepages {22}{22}}
-\headcommand {\beamer@partpages {1}{22}}
-\headcommand {\beamer@subsectionpages {22}{22}}
-\headcommand {\beamer@sectionpages {22}{22}}
-\headcommand {\beamer@documentpages {22}}
-\headcommand {\def \inserttotalframenumber {22}}
+\headcommand {\beamer@partpages {1}{20}}
+\headcommand {\beamer@subsectionpages {20}{20}}
+\headcommand {\beamer@sectionpages {20}{20}}
+\headcommand {\beamer@documentpages {20}}
+\headcommand {\def \inserttotalframenumber {20}}
