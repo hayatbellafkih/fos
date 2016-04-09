@@ -40,7 +40,11 @@
 %\usetheme{Ilmenau}
 %\usetheme{JuanLesPins}
 %\usetheme{Luebeck}
-\usetheme{Madrid}
+\useinnertheme[shadow=true]{rounded}
+\useoutertheme{infolines}
+\usecolortheme{wolverine}
+\setbeamerfont{block title}{size={}}
+\setbeamercolor{titlelike}{parent=structure,bg=yellow!85!orange}
 %\usetheme{Malmoe}
 %\usetheme{Marburg}
 %\usetheme{Montpellier}
@@ -114,21 +118,29 @@ University of Mons\\ % Your institution for the title page
 %------------------------------------------------
 \begin{frame}
 \frametitle{Introduction}
-A systems reengineering pattern is a description of an expert solution to a common systems reengineering problem, including its name, context, and advantages and disadvantages.
+A systems reengineering pattern is a description of an expert solution to a common systems reengineering problem, including its name, context, advantages and disadvantages.
 \end{frame}
+\begin{center}
+\begin{frame}
+Eliminate Navigation Code
+\end{frame}
+\end{center}
 \section{Eliminate Navigation Code}
 \subsection{About the pattern}
 \begin{frame}
 \frametitle{Description}
-Law of Demeter:\\
-The objective of Eliminate Navigation Code is to reduce the impact of changes by shifting responsibility down a chain of connected classes. The problem is these changes in the interfaces of a class will affect not only direct clients, but also all the indirect clients that navigate to reach it. 
+
+The objective of Eliminate Navigation Code is to reduce the impact of changes by shifting responsibility down a chain of connected classes. The problem is these changes in the interfaces of a class will affect not only direct clients, but also all the indirect clients that navigate to reach it. \\ 
+\setlength{\parskip}{10pt plus 1pt minus 1pt}
+$\ast$ Split up a class with too many responsibilities into a number of smaller, cohesive classes.
 \end{frame}
 
-\subsection{Solution}
+
+\subsection{How to resolve the Navigation code pattern ?}
 \begin{frame}
 \frametitle{Solution}
-Iteratively move behavior defined by an indirect client to the container of the data on which it operates.
-The recipe for eliminating navigation code is to recursively Move Behavior Close to Data.
+Iteratively move behavior defined by an indirect client to the container of the data on which it operates.\\
+The recipe for eliminating navigation code is to recursively Move Behavior Close to Data. That can be done by:
 \begin{enumerate}
 \item Identify the navigation code to move.
 \item Apply Move Behavior Close to Data to remove one level of navigation. 
@@ -137,40 +149,43 @@ The recipe for eliminating navigation code is to recursively Move Behavior Close
 Deciding when to apply Eliminate Navigation Code can be difficult.
 \end{frame}
 
-\subsection{Detection}
+\subsection{How to detect the presence of Navigation Code ?}
 \begin{frame}
-\frametitle{}
+\frametitle{Detection}
 \begin{itemize}
 \item indirect providers:
 \begin{itemize}
-\item Each time a class changes, e.g., by modifying its internal representation or collaborators, not only its direct but also indirect client classes have to be changed.
+\item Each time a class changes for example by modifying its internal representation or collaborators, not only its direct but also indirect client classes have to be changed.
 \item Look for classes that contain a lot public attributes, accessor methods or methods returning as value attributes of the class.
 \item Big aggregation hierarchies containing mostly data classes often play the role of indirect provider.
 \end{itemize}
-
 \item indirect clients:
 \begin{itemize}
-\item a sequence of attribute accesses.
-\item a sequence of accessor method calls.
+\item A sequence of attribute accesses.
+\item A sequence of accessor method calls.
 \end{itemize}
 \end{itemize}
 \end{frame}
 
-\subsection{Examples}
 \begin{frame}
-\frametitle{}
+\frametitle{Detection (II)}
+\begin{itemize}
+\item Navigation code can be detected by simple pattern matching.
+\item It is possible to use  additional variables for disguise navigation code.
+\end{itemize}
 \end{frame}
 
 
-\section{Split Up God Class}
-\begin{frame}
-\frametitle{}
-Split up a class with too many responsibilities into a number of smaller, cohesive classes.
-\end{frame}
 
-\subsection{Why Split Up God Class}
+\begin{center}
 \begin{frame}
-\frametitle{}
+Split Up God Class
+\end{frame}
+\end{center}
+\section{God class pattern}
+\subsection{Why Split Up God Class ?}
+\begin{frame}
+\frametitle{Importance of splitting a God Class:}
 \begin{itemize}
 \item A god class monopolizes control of an application. Evolution of the application is difficult because nearly every change touches this class, and affects multiple responsibilities.
 \item It is difficult to understand the different abstractions that are intermixed in a god class. Most of the data of the multiple abstractions are accessed from different places.
@@ -179,29 +194,57 @@ Split up a class with too many responsibilities into a number of smaller, cohesi
 \end{itemize}
 \end{frame}
 
+\subsection{Solution}
+\begin{frame}
+\frametitle{Solution}
+Incrementally redistribute the responsibilities of the god class either to its collaborating classes or to new classes that are pulled out the god class. When there is nothing left of the god class but a facade, remove or deprecate the facade.\\
+A god class is refactored in two stages, first by redistributing responsibilities to data containers, or by spawning off new classes, until there is nothing left but a facade, and second by removing the facade.
+\begin{figure}[H]
+\includegraphics[width=9cm]{steps-god-class.png}
+\caption{Steps of splitting a god class}
+\end{figure}
+\end{frame}
 
 \subsection{How detect a God class ?}
-A god class may be recognized in various ways:
 \begin{frame}
 \frametitle{Detection}
+A god class may be recognized in various ways:
 \begin{itemize}
-\item a single huge class treats many other classes as data structures.
-\item a “root” class or other huge class has a name containing words like “System”, “Subsystem”, “Manager”, “Driver”, or “Controller”.
-\item changes to the system always result in changes to the same class.
-\item changes to the class are extremely difficult because you cannot identify which parts of the class they affect.
-\item reusing the class is nearly impossible because it covers too many design concerns.
-\item the class is a domain class holding the majority of attributes and methods of a system or subsystem.
-\item the class has an unrelated set of methods working on separated instance variables.
-\item the class requires long compile times, even for small modifications.
-\item the class is difficult to test due to the many responsibilities it assumes.
+\item A single huge class treats many other classes as data structures.
+\item A “root” class or other huge class has a name containing words like “System”, “Subsystem”, “Manager”, “Driver”, or “Controller”.
+\item Changes to the system always result in changes to the same class.
+\item Changes to the class are extremely difficult because you cannot identify which parts of the class They affect.
+\item Reusing the class is nearly impossible because it covers too many design concerns.
+\item The class is a domain class holding the majority of attributes and methods of a system or subsystem.
+\item The class has an unrelated set of methods working on separated instance variables.
+\item The class requires long compile times, even for small modifications.
+\item The class is difficult to test due to the many responsibilities it assumes.
+\item ... % list ather points during the presentation
 \end{itemize}
 \end{frame}
 
 
-\subsection{Solution}
+\subsection{Solution in steps}
+%apply Regression Test After Every Change.
+\subsubsection{Step 1}
 \begin{frame}
-\frametitle{}
-Incrementally redistribute the responsibilities of the god class either to its collaborating classes or to new classes that are pulled out the god class. When there is nothing left of the god class but a facade, remove or deprecate the facade.
+\frametitle{Step 1}
+Identify cohesive subsets of instance variables of the god class, and convert them to external data containers. Change the initialization methods of the god class to refer to instances of the new data containers.
+\end{frame}
+\subsubsection{Step 2}
+\begin{frame}
+\frametitle{Step 2}
+Identify all classes used as data containers by the god class and apply Move Behavior Close to Data to promote the data containers into service providers.
+\end{frame}
+\subsubsection{Step 3}
+\begin{frame}
+\frametitle{Step 3}
+After iteratively applying steps 1 and 2, there will be nothing left of the god class except a facade with a big initialization method. Shift the responsibility for initialization to a separate class, so only a pure facade is left.
+\end{frame}
+\subsection{Difficulties of splitting a God Class}
+\begin{frame}
+\frametitle{Difficulties of splitting a God Class}
+God class methods may themselves be large, procedural abstractions with too many responsibilities. Such methods may need to be decomposed before cohesive sets of instance variables and methods can be teased out as classes.
 \end{frame}
 %----------------------------------------------------------------------------------------
 

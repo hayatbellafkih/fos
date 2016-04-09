@@ -8,37 +8,49 @@
 \headcommand {\beamer@subsectionpages {1}{2}}
 \headcommand {\slideentry {1}{0}{3}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\sectionentry {2}{Eliminate Navigation Code}{4}{Eliminate Navigation Code}{0}}
-\headcommand {\beamer@sectionpages {3}{3}}
-\headcommand {\beamer@subsectionpages {3}{3}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{4}{About the pattern}}\headcommand {\beamer@subsectionpages {4}{3}}
-\headcommand {\slideentry {2}{1}{1}{4/4}{About the pattern}{0}}
+\headcommand {\slideentry {1}{0}{4}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{5}{Solution}}\headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\slideentry {2}{2}{1}{5/5}{Solution}{0}}
+\headcommand {\sectionentry {2}{Eliminate Navigation Code}{5}{Eliminate Navigation Code}{0}}
+\headcommand {\beamer@sectionpages {3}{4}}
+\headcommand {\beamer@subsectionpages {3}{4}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{5}{About the pattern}}\headcommand {\beamer@subsectionpages {5}{4}}
+\headcommand {\slideentry {2}{1}{1}{5/5}{About the pattern}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{6}{Detection}}\headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\slideentry {2}{3}{1}{6/6}{Detection}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{6}{How to resolve the Navigation code pattern ?}}\headcommand {\beamer@subsectionpages {5}{5}}
+\headcommand {\slideentry {2}{2}{1}{6/6}{How to resolve the Navigation code pattern ?}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{7}{Examples}}\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\slideentry {2}{4}{1}{7/7}{Examples}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{7}{How to detect the presence of Navigation Code ?}}\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\slideentry {2}{3}{1}{7/7}{How to detect the presence of Navigation Code ?}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\sectionentry {3}{Split Up God Class}{8}{Split Up God Class}{0}}
-\headcommand {\beamer@sectionpages {4}{7}}
-\headcommand {\beamer@subsectionpages {7}{7}}
-\headcommand {\slideentry {3}{0}{2}{8/8}{}{0}}
+\headcommand {\slideentry {2}{3}{2}{8/8}{How to detect the presence of Navigation Code ?}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{9}{Why Split Up God Class}}\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\slideentry {3}{1}{1}{9/9}{Why Split Up God Class}{0}}
+\headcommand {\sectionentry {3}{God class pattern}{9}{God class pattern}{0}}
+\headcommand {\beamer@sectionpages {5}{8}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{9}{Why Split Up God Class ?}}\headcommand {\beamer@subsectionpages {9}{8}}
+\headcommand {\slideentry {3}{1}{1}{9/9}{Why Split Up God Class ?}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{10}{How detect a God class ?}}\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\slideentry {3}{2}{1}{10/10}{How detect a God class ?}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{10}{Solution}}\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\slideentry {3}{2}{1}{10/10}{Solution}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{12}{Solution}}\headcommand {\beamer@subsectionpages {10}{11}}
-\headcommand {\slideentry {3}{3}{1}{12/12}{Solution}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{11}{How detect a God class ?}}\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\slideentry {3}{3}{1}{11/11}{How detect a God class ?}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{12}{Solution in steps}}\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{4}{1}{12}{Step 1}}
+\headcommand {\slideentry {3}{4}{1}{12/12}{Solution in steps}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@partpages {1}{12}}
-\headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\beamer@sectionpages {8}{12}}
-\headcommand {\beamer@documentpages {12}}
-\headcommand {\def \inserttotalframenumber {11}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{4}{2}{13}{Step 2}}
+\headcommand {\slideentry {3}{4}{2}{13/13}{Solution in steps}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{4}{3}{14}{Step 3}}
+\headcommand {\slideentry {3}{4}{3}{14/14}{Solution in steps}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{15}{Difficulties of splitting a God Class}}\headcommand {\beamer@subsectionpages {12}{14}}
+\headcommand {\slideentry {3}{5}{1}{15/15}{Difficulties of splitting a God Class}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@partpages {1}{15}}
+\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\beamer@sectionpages {9}{15}}
+\headcommand {\beamer@documentpages {15}}
+\headcommand {\def \inserttotalframenumber {15}}
