@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.20)  8 APR 2016 17:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.20)  9 APR 2016 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -695,7 +695,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count156
 \@thisrulewidth=\dimen197
 )
-No file sgc.aux.
+(./sgc.aux)
 \openout1 = `sgc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
@@ -712,6 +712,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
 LaTeX Font Info:    ... okay on input line 97.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -789,6 +790,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 97.
 LaTeX Info: Redefining \pageref on input line 97.
 LaTeX Info: Redefining \nameref on input line 97.
+
+(./sgc.out) (./sgc.out)
 \@outlinefile=\write5
 \openout5 = `sgc.out'.
 
@@ -860,19 +863,74 @@ tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 97.
-
-No file sgc.nav.
+ (./sgc.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 101.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-No file sgc.toc.
-[2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./sgc.toc) [2
 
 ] [3
+
+]
+[4
+
+] [5
+
+] [6
+
+] [7
+
+] [8
+
+] [9
+
+]
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10
+
+]
+[11] [12
 
 ]
 \tf@nav=\write6
@@ -884,42 +942,36 @@ No file sgc.toc.
 \tf@snm=\write8
 \openout8 = `sgc.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
  (./sgc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+Package rerunfilecheck Info: File `sgc.out' has not changed.
+(rerunfilecheck)             Checksum: 8AB1222C0A77745D2008B1E079462469;602.
 
-
-Package rerunfilecheck Warning: File `sgc.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sgc.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C904DF600C3A5845D282AA215E0C34DE;104.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
- 15586 strings out of 494958
- 289943 string characters out of 6179213
- 365407 words of memory out of 5000000
- 18449 multiletter control sequences out of 15000+600000
- 5803 words of font info for 21 fonts, out of 8000000 for 9000
+ 15809 strings out of 494958
+ 294608 string characters out of 6179213
+ 366567 words of memory out of 5000000
+ 18636 multiletter control sequences out of 15000+600000
+ 6108 words of font info for 22 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,16n,53p,392b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,16n,62p,392b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on sgc.pdf (3 pages, 47674 bytes).
+Output written on sgc.pdf (12 pages, 73486 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 9 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 386 compressed objects within 4 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

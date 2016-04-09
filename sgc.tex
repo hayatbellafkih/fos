@@ -83,10 +83,10 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Fear	of	Success]{Mini	Management	Antipattern} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Redistribute Responsibilities]{Eliminate Navigation Code \& Split Up God Class} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Hayat BELLAFKIH} % Your name
-\institute[UCLA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+\institute[UMONS] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 {
 University of Mons\\ % Your institution for the title page
 \medskip
@@ -110,15 +110,99 @@ University of Mons\\ % Your institution for the title page
 %----------------------------------------------------------------------------------------
 
 %------------------------------------------------
-\section{Introduction} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+\section{Introduction} 
 %------------------------------------------------
-
-
-\section{Definition antipatters}
 \begin{frame}
-\frametitle{Definition antipatters}
+\frametitle{Introduction}
+A systems reengineering pattern is a description of an expert solution to a common systems reengineering problem, including its name, context, and advantages and disadvantages.
+\end{frame}
+\section{Eliminate Navigation Code}
+\subsection{About the pattern}
+\begin{frame}
+\frametitle{Description}
+Law of Demeter:\\
+The objective of Eliminate Navigation Code is to reduce the impact of changes by shifting responsibility down a chain of connected classes. The problem is these changes in the interfaces of a class will affect not only direct clients, but also all the indirect clients that navigate to reach it. 
 \end{frame}
 
+\subsection{Solution}
+\begin{frame}
+\frametitle{Solution}
+Iteratively move behavior defined by an indirect client to the container of the data on which it operates.
+The recipe for eliminating navigation code is to recursively Move Behavior Close to Data.
+\begin{enumerate}
+\item Identify the navigation code to move.
+\item Apply Move Behavior Close to Data to remove one level of navigation. 
+\item Repeat, if necessary.
+\end{enumerate}
+Deciding when to apply Eliminate Navigation Code can be difficult.
+\end{frame}
+
+\subsection{Detection}
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item indirect providers:
+\begin{itemize}
+\item Each time a class changes, e.g., by modifying its internal representation or collaborators, not only its direct but also indirect client classes have to be changed.
+\item Look for classes that contain a lot public attributes, accessor methods or methods returning as value attributes of the class.
+\item Big aggregation hierarchies containing mostly data classes often play the role of indirect provider.
+\end{itemize}
+
+\item indirect clients:
+\begin{itemize}
+\item a sequence of attribute accesses.
+\item a sequence of accessor method calls.
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsection{Examples}
+\begin{frame}
+\frametitle{}
+\end{frame}
+
+
+\section{Split Up God Class}
+\begin{frame}
+\frametitle{}
+Split up a class with too many responsibilities into a number of smaller, cohesive classes.
+\end{frame}
+
+\subsection{Why Split Up God Class}
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item A god class monopolizes control of an application. Evolution of the application is difficult because nearly every change touches this class, and affects multiple responsibilities.
+\item It is difficult to understand the different abstractions that are intermixed in a god class. Most of the data of the multiple abstractions are accessed from different places.
+\item Identifying where to change a feature without impacting the other functionality or other objects in the system is difficult.
+\item It is nearly impossible to change a part of the behavior of a god class in a black-box way.
+\end{itemize}
+\end{frame}
+
+
+\subsection{How detect a God class ?}
+A god class may be recognized in various ways:
+\begin{frame}
+\frametitle{Detection}
+\begin{itemize}
+\item a single huge class treats many other classes as data structures.
+\item a “root” class or other huge class has a name containing words like “System”, “Subsystem”, “Manager”, “Driver”, or “Controller”.
+\item changes to the system always result in changes to the same class.
+\item changes to the class are extremely difficult because you cannot identify which parts of the class they affect.
+\item reusing the class is nearly impossible because it covers too many design concerns.
+\item the class is a domain class holding the majority of attributes and methods of a system or subsystem.
+\item the class has an unrelated set of methods working on separated instance variables.
+\item the class requires long compile times, even for small modifications.
+\item the class is difficult to test due to the many responsibilities it assumes.
+\end{itemize}
+\end{frame}
+
+
+\subsection{Solution}
+\begin{frame}
+\frametitle{}
+Incrementally redistribute the responsibilities of the god class either to its collaborating classes or to new classes that are pulled out the god class. When there is nothing left of the god class but a facade, remove or deprecate the facade.
+\end{frame}
 %----------------------------------------------------------------------------------------
 
 \end{document} 
