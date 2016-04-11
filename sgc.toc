@@ -4,12 +4,13 @@
 \beamer@subsectionintoc {2}{1}{About the pattern}{5}{0}{2}
 \beamer@subsectionintoc {2}{2}{How to resolve the Navigation code pattern ?}{6}{0}{2}
 \beamer@subsectionintoc {2}{3}{How to detect the presence of Navigation Code ?}{7}{0}{2}
-\beamer@sectionintoc {3}{God class pattern}{9}{0}{3}
-\beamer@subsectionintoc {3}{1}{Why Split Up God Class ?}{9}{0}{3}
-\beamer@subsectionintoc {3}{2}{Solution}{10}{0}{3}
-\beamer@subsectionintoc {3}{3}{How detect a God class ?}{11}{0}{3}
-\beamer@subsectionintoc {3}{4}{Solution in steps}{12}{0}{3}
-\beamer@subsubsectionintoc {3}{4}{1}{Step 1}{12}{0}{3}
-\beamer@subsubsectionintoc {3}{4}{2}{Step 2}{13}{0}{3}
-\beamer@subsubsectionintoc {3}{4}{3}{Step 3}{14}{0}{3}
-\beamer@subsectionintoc {3}{5}{Difficulties of splitting a God Class}{15}{0}{3}
+\beamer@sectionintoc {3}{God class pattern}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Why Split Up God Class ?}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Solution}{11}{0}{3}
+\beamer@subsectionintoc {3}{3}{How detect a God class ?}{12}{0}{3}
+\beamer@subsectionintoc {3}{4}{Solution in steps}{13}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{1}{Step 1}{13}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{2}{Step 2}{14}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{3}{Step 3}{15}{0}{3}
+\beamer@subsectionintoc {3}{5}{Difficulties of splitting a God Class}{16}{0}{3}
+\beamer@sectionintoc {4}{References}{17}{0}{4}
